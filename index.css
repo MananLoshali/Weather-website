@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-image: url("./images.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.main{
+    width: 30%;
+    height: 80vh;
+    background-color: lightblue;
+    margin-top: 10vh;
+}
+
+.weather-image{
+    width: 300px;
+    height: 159px;
+    display: grid;
+    place-items: center;
+}
+
+#image{
+    margin-top: 18%;
+    color: aliceblue;
+}
+
+#sun{
+    margin-top: 18%;
+    color: yellow;
+}
+
+.weather-info{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+#location{
+    display: flex;
+    grid-gap: 18px;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 5vh;
+}
+
+#day-info{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.temp{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+.temp1{
+    margin-top: 30px;
+    margin-left: 70px;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.btn{
+    width: 70%;
+    height: 8%;
+    background-color: white;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    color: yellow;
+    font-weight: bolder;
+    cursor:pointer
+}
+.btn:hover{
+    color: red;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
